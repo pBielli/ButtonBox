@@ -50,7 +50,7 @@ class CustomEncoder2 : public InputAction {
     }
 };
 
-// Azione per encoder con tasti funzione (F16-F17)
+// Azione per encoder con tasti funzione (F19-F21)
 class CustomEncoder3 : public InputAction {
     void onPress() override {
         Keyboard.press(KEY_F19);
@@ -75,7 +75,7 @@ class CustomEncoder3 : public InputAction {
     }
 };
 
-// Azione per encoder con tasti funzione (F16-F17)
+// Azione per encoder con tasti funzione (F22-F24)
 class CustomEncoder4 : public InputAction {
     void onPress() override {
         Keyboard.press(KEY_F22);
